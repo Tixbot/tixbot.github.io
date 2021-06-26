@@ -73,7 +73,6 @@ html {
 
 body {
     margin: 0;
-    min-width: 960px;
 }
 
 /* ==========================================================================
@@ -445,7 +444,7 @@ code {
   float: left;  
   height: 100%;
   overflow: auto;
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 240px;
 }
@@ -513,6 +512,7 @@ code {
 /* References */
 #content {
   padding: 20px;
+  padding-left: 260px;
   max-width: 700px;
 }
 
@@ -617,17 +617,13 @@ code {
 }
 
 #content .body {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  border-top: 1px solid #eef1f2;
-  box-sizing: border-box;
+  border-top: 1px solid #52ce0e;
   display: block;
   padding: 15px 15px 0;
-  width: 100%;
 }
 
 #content .body code {
-  border: 1px solid #e2e7ea;
+  border: 1px solid #52ce0e;
   background: #eef1f2;
   border-radius: 2px;
   -moz-border-radius: 2px;
