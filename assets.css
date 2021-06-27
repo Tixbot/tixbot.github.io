@@ -574,7 +574,7 @@ code {
 }
 
 #content article a h2 code b {
-  background: #657e8b;
+  background: #e02a10;
   text-transform: uppercase;
 }
 
@@ -626,7 +626,7 @@ code {
 
 #content .body code {
   border: 1px solid #52ce0e;
-  background: #e02a10;
+  background: #eef1f2;
   border-radius: 2px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
